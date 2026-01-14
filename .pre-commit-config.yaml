@@ -43,7 +43,7 @@ repos:
         files: ^.*\.(sh|bash|ksh)$
         types: []
   - repo: https://github.com/adrienverge/yamllint
-    rev: v1.37.1
+    rev: v1.38.0
     hooks:
       - id: yamllint
         name: Check YAML syntax with yamllint
@@ -100,7 +100,7 @@ repos:
             )$
         additional_dependencies: [pygments==2.16.1]
   - repo: https://github.com/renovatebot/pre-commit-hooks
-    rev: 42.71.2
+    rev: 42.81.3
     hooks:
       - id: renovate-config-validator
         name: Check Renovate config with renovate-config-validator
